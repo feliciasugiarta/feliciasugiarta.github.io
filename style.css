@@ -7,15 +7,20 @@
 }
 
 /*section1*/
+
+#fullpage{
+    background-color: rgb(255, 251, 242);
+}
+
 .s1{
     width : 100%;
     height: 130vh;
     justify-items: center;
     align-items: center;
-    background-color: #ffffff;
     overflow: hidden;
     background-image: url(./Images/Home.jpeg);
     background-size: cover;
+    position: relative; 
 }
 
 .bg{
@@ -57,6 +62,7 @@ p2{
 
 /*section2*/
 .s2{
+    margin-top: 80px;
     width: 100%;
     height: 100vh; 
     background-color: rgb(255, 251, 242);
@@ -78,7 +84,7 @@ p2{
     padding-top: 25%;
     justify-content: center;
     text-align: center;
-    transform:translate(-25%, 1%);
+    transform:translate(-25%, 0%);
 }
 
 /* Fading animation */
@@ -99,21 +105,20 @@ p2{
 	to {opacity: 1}
   }
 
+
 .chair{
     height: 70%;
     position: absolute;
-    top: 195%;
-    left: 95%;
-    transform:translate(-95%, -70%);
+    transform: translate(150%,-65%);
 }
 
 #logo{
     position: absolute; 
-    animation: fill 0.5s ease forwards 2s;
-    z-index: 0;
+    animation-name: fill; 
+    animation: 0.5s ease forwards 2s;
 }
 
-/* Text animation */
+/* Text animation logo*/
 #logo path:nth-child(1){
     stroke-width: 3px;
     stroke-dasharray: 2453;
@@ -141,19 +146,147 @@ p2{
     stroke-dashoffset: 2611;
     animation: line-anim 2s ease forwards 2.0s; 
 }
-@keyframes line-anim{
-    to{
-        stroke-dashoffset: 0;
+
+    @keyframes line-anim{
+        to{
+            stroke-dashoffset: 0;
+        }
     }
-}
-@keyframes fill{
-    to{
-        fill: #0000;
-        opacity: 1; 
+
+    @keyframes fill{
+        to{
+            fill: #0000;
+        }
     }
+
+
+/*section 3*/ 
+.s3{
+width: 100%;
+height: 100vh;
+background-color: rgb(255, 251, 242);
 }
 
-.s3{
-    width: 100%;
-    height: 100vh;
+.moussa{
+    padding-left: 250px; 
+    padding-top: 100px; 
 }
+
+#logo2{
+    position: absolute; 
+    animation-name: fill; 
+    animation: 0.5s ease forwards 2s;
+}
+
+/* Text animation logo2*/
+#logo2 path:nth-child(1){
+    stroke-width: 3px;
+    stroke-dasharray: 2991;
+    stroke-dashoffset: 2991;
+    animation: line-anim 2s ease forwards;
+}
+
+#logo2 path:nth-child(2){
+    stroke-width: 3px;
+    stroke-dasharray: 1912;
+    stroke-dashoffset: 1912;
+    animation: line-anim 2s ease forwards 0.5s; 
+}
+
+#logo2 path:nth-child(3){
+    stroke-width: 3px;
+    stroke-dasharray: 1951;
+    stroke-dashoffset: 1951;
+    animation: line-anim 2s ease forwards 1.5s; 
+}
+
+#logo2 path:nth-child(4){
+    stroke-width: 3px;
+    stroke-dasharray: 3502;
+    stroke-dashoffset: 3502;
+    animation: line-anim 2s ease forwards 2.0s; 
+}
+
+#logo2 path:nth-child(5){
+    stroke-width: 3px;
+    stroke-dasharray: 1959;
+    stroke-dashoffset: 1959;
+    animation: line-anim 2s ease forwards 2.0s; 
+}
+
+    @keyframes line-anim{
+        to{
+            stroke-dashoffset: 0;
+        }
+    }
+
+    @keyframes fill{
+        to{
+            fill: #0000;
+        }
+    }
+
+    
+.bath{
+    height: 90%;
+    position: absolute;
+    transform:translate(-10%,30% );
+}
+
+.s3 h1{
+    font-size: 75px;
+    background: linear-gradient(to left, #202020, #414141);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    letter-spacing: 0.1em;
+}
+
+.description2 p{
+    letter-spacing: 0.25em;
+}
+
+.description2{
+    padding-top: 45%;
+    justify-content: center;
+    text-align: center;
+    transform:translate(25%, 0%);
+}
+
+/*section 4*/ 
+.s4{
+    width: 100%;
+    height: 160vh;
+    background-color: rgb(255, 251, 242);
+ }
+
+ .nt{
+     padding-left: 440px; 
+     padding-top: 300px; 
+ }
+
+ /* Text animation logo3*/
+#logo3 path:nth-child(1){
+    stroke-width: 3px;
+    stroke-dasharray: 2991;
+    stroke-dashoffset: 2991;
+    animation: line-anim 2s ease forwards;
+}
+
+#logo3 path:nth-child(2){
+    stroke-width: 3px;
+    stroke-dasharray: 1912;
+    stroke-dashoffset: 1912;
+    animation: line-anim 2s ease forwards 0.5s; 
+}
+
+    @keyframes line-anim{
+        to{
+            stroke-dashoffset: 0;
+        }
+    }
+
+    @keyframes fill{
+        to{
+            fill: #0000;
+        }
+    }

@@ -1,3 +1,5 @@
+
+// Slideshot bottles 
 const inputs = document.querySelectorAll(".input");
 
 
@@ -46,8 +48,23 @@ var iSlider = {
 iSlider.initSlides();
 iSlider.showSlides();
 
+//background logo text
+
 const logo = document.querySelectorAll('#logo path');
 
 for(let i=0; i<logo.length; i++){
   console.log(`Letter ${i} is ${logo[i].getTotalLength()}`);
 }
+
+const logo2 = document.querySelectorAll('#logo2 path');
+
+for(let i=0; i<logo2.length; i++){
+  console.log(`Letter ${i} is ${logo2[i].getTotalLength()}`);
+}
+
+const logo3 = document.querySelectorAll('#logo3 path');
+
+for(let i=0; i<logo3.length; i++){
+  console.log(`Letter ${i} is ${logo3[i].getTotalLength()}`);
+}
+
