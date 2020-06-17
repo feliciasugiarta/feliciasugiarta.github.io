@@ -74,23 +74,25 @@ p2{
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     letter-spacing: 0.1em;
+    padding-top: 25%;
+    text-align: right; 
+    transform:translate(-25%, -15%);
 }
 
 .description p{
-    letter-spacing: 0.5em;
-}
-
-.description{
-    padding-top: 25%;
+    font-size: 25px;
+    letter-spacing: 0.1em;
     justify-content: center;
     text-align: center;
-    transform:translate(-25%, 0%);
+    line-height: 2em;
+    transform:translate(-18%, 0%);
 }
+
 
 /* Fading animation */
 .fade {
 	-webkit-animation-name: fade;
-	-webkit-animation-duration: 0.5s;
+	-webkit-animation-duration: 1.5s;
     animation-name: fade;
 	animation-duration: 1.5s;
   }
@@ -106,10 +108,10 @@ p2{
   }
 
 
-.chair{
+.bottle{
     height: 70%;
     position: absolute;
-    transform: translate(150%,-65%);
+    transform: translate(130%,-65%);
 }
 
 #logo{
@@ -241,16 +243,45 @@ background-color: rgb(255, 251, 242);
     letter-spacing: 0.1em;
 }
 
-.description2 p{
-    letter-spacing: 0.25em;
+.description2 h1{
+    padding-top: 45%;
+    text-align: right;
+    align-items: left;
+    justify-content: left;
+    transform:translate(-30%, -25%);
 }
 
-.description2{
-    padding-top: 45%;
-    justify-content: center;
-    text-align: center;
-    transform:translate(25%, 0%);
+.details{
+    justify-content: left;
+    align-items: left;
+    text-align: left;
+    transform:translate(-3%, -35%);
+    padding-left: 50%;
 }
+
+.details h2{
+    text-align: left;
+    font-size: 30px;
+    letter-spacing: 0.03em;
+}
+.details p{
+    font-size: 16px; 
+    text-align: left;
+    letter-spacing: 0.05em;
+    padding-top: 10px;
+    padding-bottom: 80px;
+}
+
+.icon1{
+    margin: 0;
+    transform:translate(0%, -13%); 
+    vertical-align: top;
+    float: left;
+    clear: left;
+
+}
+
+
 
 /*section 4*/ 
 .s4{
