@@ -146,12 +146,15 @@ body{
     justify-content: center;
     transform:translate(13%, 0%);
     z-index: -1;
-    opacity:0; 
 }
 
-.js-text3-animate{
+.comfort {
+    opacity: 0; 
+}
+
+.js-comfort-animate{
     opacity: 1;
-    animation: dipper-jiggle 250ms linear;
+    animation: line-anim 0.2s linear;
 }
 
 /* Text animation comfort*/

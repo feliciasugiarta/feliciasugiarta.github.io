@@ -277,13 +277,14 @@ for(let i=0; i<slides.length; i++){
   console.log(`Letter ${i} is ${slides[i].getTotalLength()}`);
 }
 
-var $text3 = $('.js-text3-animate');
-
-$text3.waypoint(function (direction) {
+var $path = $('.comfort');
+$path.waypoint(function (direction) {
+  console.log(direction)
   if (direction == 'down') {
-    $text3.addClass('js-text3-animate');
+    $path.addClass('js-comfort-animate');
+    console.log("Direction is down")
   } else {
-    $text3.removeClass('js-text3-animate');
+    console.log("Direction is not down")
+    $path.removeClass('js-comfort-animate');
   }
-}, { offset: '30%' });
-
+}, { offset: '50%' });
