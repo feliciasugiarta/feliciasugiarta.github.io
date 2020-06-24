@@ -344,7 +344,6 @@ header.sticky {
   stroke-dasharray: 1043;
   stroke-dashoffset: 1043;
   animation: line-anim 3s ease forwards;
-  animation-iteration-count: infinite;
 }
 
 #style path:nth-child(2) {
