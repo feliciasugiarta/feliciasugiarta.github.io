@@ -15,6 +15,128 @@ body{
     padding: 0;
     box-sizing: border-box;
 }
+
+/* Header*/
+
+header{
+    font-family: 'Poppins';
+    top:0;
+    left: 0;
+    width: 100%;
+    position: fixed;
+    transition: 0.6s;
+    z-index: 100; 
+}
+
+header.sticky{
+    padding: 5px;
+    background-color: #f6f6f6;
+}
+
+.container1 {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.logo{
+    width: 80%;
+}
+
+/*Nav styles*/
+.left-side{
+    display: flex;     
+    justify-items: center;
+    align-items: center;
+}
+.nav-wrapper{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.right{
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 1.5px;
+
+}
+
+.middle{
+    display: flex;     
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 1.5px;
+}
+
+.options{
+    padding-right: 150px;
+}
+
+.nav-wrapper > .middle  > div {
+    margin-right: 20px;
+    font-size: 0.8em;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.middle a {
+    color: #8a8a8a;
+    text-decoration: none;
+    text-align: center;
+    transition: color 0.5s;
+    margin: 0 15px;
+}
+
+.middle a:hover {
+    border-bottom: 1px solid black;
+}
+
+.middle a:hover {
+    color:black;
+}
+
+.nav-wrapper > .right  > div {
+    margin-right: 20px;
+    font-size: 0.8em;
+    text-transform: uppercase;
+}
+
+
+.nav-link-wrapper {
+    height: 22px;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom 0.5s;
+}
+
+.nav-link-wrapper a {
+    color: #8a8a8a;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+.nav-link-wrapper a:hover {
+    border-bottom: 1px solid black;
+}
+
+.nav-link-wrapper a:hover {
+    color:black;
+}
+
+
+.active-nav-link a {
+    color: black !important;
+}
+
+
+.Shoppingcart{
+    width: 75%;
+    margin-top: 0px;
+    position: center;
+}
+
+
   /*Tennis Pong*/ 
 #pong{
     width: 100%;
@@ -42,6 +164,7 @@ body{
 }
 
 .brand h1{
+    margin-top: -2%;
     color: #D7A30F;
     font-size: 6em;
     letter-spacing: 0.15em;

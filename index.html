@@ -7,6 +7,37 @@
     <link href="https://fonts.googleapis.com/css2?family=Sawarabi+Mincho&display=swap" rel="stylesheet">
 </head>
 <body>
+    <header>
+        <div class="container1">
+          <nav class="nav-wrapper active-nav-link">
+              <div class="left-side">
+                <div class="logo">
+                  <img class="logo" src="Images/Logo.png">
+                </div>
+              </div>
+
+              <div class="middle">
+                <div class="options">
+                    <a href="#">Men</a>
+                    <a href="#">Women</a>
+                    <a href="#">Kids</a>
+                </div>
+              </div>
+        
+              <div class="right">
+                <div class="nav-link-wrapper">
+                  <a href="#"><img class="Shoppingcart" src="Images/Search.png" width="10%"></a>
+                </div>
+              </div>
+          </nav>
+        </div>
+    </header>
+    <script type="text/javascript">
+        window.addEventListener("scroll",function(){
+        var header = document.querySelector("header");
+        header.classList.toggle("sticky", window.scrollY > 0);
+        })
+    </script>
    <section class="s1">
     <canvas id="pong" >
     </canvas>

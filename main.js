@@ -47,7 +47,7 @@ const net = {
     y : 0,
     height : 10,
     width : 2,
-    color : "WHITE"
+   
 }
 
 // draw a rectangle, will be used to draw paddles
@@ -151,7 +151,7 @@ function update(){
 function render(){
     
     // clear the canvas
-    drawRect(0, 0, canvas.width, canvas.height, "#fff");
+    drawRect(0, 0, canvas.width, canvas.height, "#f6f6f6");
     
     // draw the net
     drawNet();
@@ -455,3 +455,4 @@ function scrollAppear502(){
 }
 
 window.addEventListener('scroll',scrollAppear502);
+
