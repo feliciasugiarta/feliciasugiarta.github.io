@@ -171,25 +171,25 @@
 		"oT": 1,
 		"q": 100
 		},
-	"/Images/Slide1.png": {
+	"/Images/SlideBlack.png": {
 		"ft": 32768,
-		"iS": 719652,
+		"iS": 642907,
 		"oA": 0,
-		"oAP": "/Images/Slide1.png",
+		"oAP": "/Images/SlideBlack.png",
 		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
+		"oIPL": 0,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"/Images/Slide2.png": {
+	"/Images/SlideWhite.png": {
 		"ft": 32768,
-		"iS": 1286389,
+		"iS": 426664,
 		"oA": 0,
-		"oAP": "/Images/Slide2.png",
+		"oAP": "/Images/SlideWhite.png",
 		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
+		"oIPL": 0,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
