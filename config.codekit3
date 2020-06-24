@@ -160,11 +160,11 @@
 		"oT": 1,
 		"q": 100
 		},
-	"/Images/Search.png": {
+	"/Images/SearchIcon.png": {
 		"ft": 32768,
 		"iS": 579,
 		"oA": 0,
-		"oAP": "/Images/Search.png",
+		"oAP": "/Images/SearchIcon.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -177,8 +177,8 @@
 		"oA": 0,
 		"oAP": "/Images/Slide1.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -188,8 +188,8 @@
 		"oA": 0,
 		"oAP": "/Images/Slide2.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
