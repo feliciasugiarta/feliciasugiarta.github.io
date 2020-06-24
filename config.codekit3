@@ -94,6 +94,28 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/Images/CrocoSlide-01.png": {
+		"ft": 32768,
+		"iS": 741213,
+		"oA": 0,
+		"oAP": "/Images/CrocoSlide-01.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/Images/CrocoSlide-02.png": {
+		"ft": 32768,
+		"iS": 536523,
+		"oA": 0,
+		"oAP": "/Images/CrocoSlide-02.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"/Images/Frame 1.png": {
 		"ft": 32768,
 		"iS": 28433,
