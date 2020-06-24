@@ -107,17 +107,6 @@ function collision(b,p){
 // update function, the function that does all calculations
 function update(){
     
-    // change the score of players, if the ball goes to the left "ball.x<0" computer win, else if "ball.x > canvas.width" the user win
-    if( ball.x - ball.radius < 0 ){
-        com.score++;
-        comScore.play();
-        resetBall();
-    }else if( ball.x + ball.radius > canvas.width){
-        user.score++;
-        userScore.play();
-        resetBall();
-    }
-    
     // the ball has a velocity
     ball.x += ball.velocityX;
     ball.y += ball.velocityY;
@@ -277,14 +266,192 @@ for(let i=0; i<slides.length; i++){
   console.log(`Letter ${i} is ${slides[i].getTotalLength()}`);
 }
 
-var $path = $('.comfort');
-$path.waypoint(function (direction) {
-  console.log(direction)
-  if (direction == 'down') {
-    $path.addClass('js-comfort-animate');
-    console.log("Direction is down")
-  } else {
-    console.log("Direction is not down")
-    $path.removeClass('js-comfort-animate');
+//Section1
+function scrollAppear0(){
+  var animateText = document.querySelector('.anim0');
+  var textPosition = animateText.getBoundingClientRect().top;
+  var screenPosition = window.innerHeight;
+
+  if(textPosition < screenPosition){
+    animateText.classList.add('js-anim0');
   }
-}, { offset: '50%' });
+}
+
+window.addEventListener('scroll',scrollAppear0);
+
+//Section2
+function scrollAppear(){
+  var animateText = document.querySelector('.anim');
+  var textPosition = animateText.getBoundingClientRect().top;
+  var screenPosition = window.innerHeight / 1.3 ;
+
+  if(textPosition < screenPosition){
+    animateText.classList.add('js-anim');
+  }
+}
+
+window.addEventListener('scroll',scrollAppear);
+
+//Section3
+
+function scrollAppear101(){
+  var animateText = document.querySelector('.anim101');
+  var textPosition = animateText.getBoundingClientRect().top;
+  var screenPosition = window.innerHeight*1.3;
+
+  if(textPosition < screenPosition){
+    animateText.classList.add('js-anim101');
+  }
+}
+
+window.addEventListener('scroll',scrollAppear101);
+
+function scrollAppear102(){
+  var animateText = document.querySelector('.anim102');
+  var textPosition = animateText.getBoundingClientRect().top;
+  var screenPosition = window.innerHeight/2.2;
+
+  if(textPosition < screenPosition){
+    animateText.classList.add('js-anim102');
+  }
+}
+
+window.addEventListener('scroll',scrollAppear102);
+
+function scrollAppear103(){
+  var animateText = document.querySelector('.anim103');
+  var textPosition = animateText.getBoundingClientRect().top;
+  var screenPosition = window.innerHeight*1.2;
+
+  if(textPosition < screenPosition){
+    animateText.classList.add('js-anim103');
+  }
+}
+
+window.addEventListener('scroll',scrollAppear103);
+
+//Section4
+
+function scrollAppear2(){
+  var animateText = document.querySelector('.anim2');
+  var textPosition = animateText.getBoundingClientRect().top;
+  var screenPosition = window.innerHeight / 1.7 ;
+
+  if(textPosition < screenPosition){
+    animateText.classList.add('js-anim2');
+  }
+}
+
+window.addEventListener('scroll',scrollAppear2);
+
+//Section5
+
+function scrollAppear3(){
+  var animateText = document.querySelector('.anim3');
+  var textPosition = animateText.getBoundingClientRect().top;
+  var screenPosition = window.innerHeight / 1.7 ;
+
+  if(textPosition < screenPosition){
+    animateText.classList.add('js-anim3');
+  }
+}
+
+window.addEventListener('scroll',scrollAppear3);
+
+function scrollAppear301(){
+  var animateText = document.querySelector('.anim301');
+  var textPosition = animateText.getBoundingClientRect().top;
+  var screenPosition = window.innerHeight / 1.7 ;
+
+  if(textPosition < screenPosition){
+    animateText.classList.add('js-anim301');
+  }
+}
+
+window.addEventListener('scroll',scrollAppear301);
+
+function scrollAppear302(){
+  var animateText = document.querySelector('.anim302');
+  var textPosition = animateText.getBoundingClientRect().top;
+  var screenPosition = window.innerHeight / 1.7 ;
+
+  if(textPosition < screenPosition){
+    animateText.classList.add('js-anim302');
+  }
+}
+
+window.addEventListener('scroll',scrollAppear302);
+
+//Section6
+
+function scrollAppear4(){
+  var animateText = document.querySelector('.anim4');
+  var textPosition = animateText.getBoundingClientRect().top;
+  var screenPosition = window.innerHeight / 1.2;
+
+  if(textPosition < screenPosition){
+    animateText.classList.add('js-anim4');
+  }
+}
+
+window.addEventListener('scroll',scrollAppear4);
+
+function scrollAppear401(){
+  var animateText = document.querySelector('.anim401');
+  var textPosition = animateText.getBoundingClientRect().top;
+  var screenPosition = window.innerHeight / 1.2;
+
+  if(textPosition < screenPosition){
+    animateText.classList.add('js-anim401');
+  }
+}
+
+window.addEventListener('scroll',scrollAppear401);
+
+function scrollAppear402(){
+  var animateText = document.querySelector('.anim402');
+  var textPosition = animateText.getBoundingClientRect().top;
+  var screenPosition = window.innerHeight / 1.2;
+
+  if(textPosition < screenPosition){
+    animateText.classList.add('js-anim402');
+  }
+}
+
+window.addEventListener('scroll',scrollAppear402);
+
+function scrollAppear5(){
+  var animateText = document.querySelector('.anim5');
+  var textPosition = animateText.getBoundingClientRect().top;
+  var screenPosition = window.innerHeight / 1.2;
+
+  if(textPosition < screenPosition){
+    animateText.classList.add('js-anim5');
+  }
+}
+
+window.addEventListener('scroll',scrollAppear5);
+
+function scrollAppear501(){
+  var animateText = document.querySelector('.anim501');
+  var textPosition = animateText.getBoundingClientRect().top;
+  var screenPosition = window.innerHeight / 1.5;
+
+  if(textPosition < screenPosition){
+    animateText.classList.add('js-anim501');
+  }
+}
+
+window.addEventListener('scroll',scrollAppear501);
+
+function scrollAppear502(){
+  var animateText = document.querySelector('.anim502');
+  var textPosition = animateText.getBoundingClientRect().top;
+  var screenPosition = window.innerHeight / 2;
+
+  if(textPosition < screenPosition){
+    animateText.classList.add('js-anim502');
+  }
+}
+
+window.addEventListener('scroll',scrollAppear502);
