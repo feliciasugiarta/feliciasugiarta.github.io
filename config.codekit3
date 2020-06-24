@@ -193,26 +193,26 @@
 		"oT": 1,
 		"q": 100
 		},
-	"/Images/SlideBlack.png": {
-		"ft": 32768,
-		"iS": 642907,
+	"/Images/Slide1-01.jpg": {
+		"ft": 16384,
+		"iS": 610373,
+		"jF": 0,
 		"oA": 0,
-		"oAP": "/Images/SlideBlack.png",
+		"oAP": "/Images/Slide1-01.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"oT": 1,
 		"q": 100
 		},
-	"/Images/SlideWhite.png": {
-		"ft": 32768,
-		"iS": 426664,
+	"/Images/Slide1-02.jpg": {
+		"ft": 16384,
+		"iS": 410200,
+		"jF": 0,
 		"oA": 0,
-		"oAP": "/Images/SlideWhite.png",
+		"oAP": "/Images/Slide1-02.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"oT": 1,
 		"q": 100
 		},
 	"/index.html": {
