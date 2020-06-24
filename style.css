@@ -19,7 +19,6 @@ body{
 /* Header*/
 
 header{
-    font-family: 'Poppins';
     top:0;
     left: 0;
     width: 100%;
@@ -99,7 +98,6 @@ header.sticky{
 
 .nav-wrapper > .right  > div {
     margin-right: 20px;
-    font-size: 0.8em;
     text-transform: uppercase;
 }
 
@@ -130,7 +128,7 @@ header.sticky{
 }
 
 
-.Shoppingcart{
+.Search{
     width: 75%;
     margin-top: 0px;
     position: center;
@@ -1047,8 +1045,46 @@ header.sticky{
 
 
   @media screen and (max-width: 900px){
-     /*section 1*/ 
+    .middle{
+        display: flex;     
+        justify-items: center;
+        align-items: center;
+        text-align: center;
+        letter-spacing: 0.4px;
+    }
 
+    header.sticky{
+        padding: 0px;
+    }
+
+    .nav-wrapper > .middle  > div {
+        margin-right: 0px;
+    }
+    
+    .middle a {
+        margin: 0px;
+    }
+    
+    .options{
+        padding-right: 10px;
+    }
+    
+    .logo{
+        width: 70%;
+    }
+
+    .Search{
+        width: 55%;
+    }
+    .nav-wrapper > .middle  > div {
+        margin-right: 20px;
+        font-size: 0.58em;
+        text-align: center;
+        text-transform: uppercase;
+    }
+
+    /*section 1*/ 
+        
         .brand{
             text-align: center;
             align-items: center;
