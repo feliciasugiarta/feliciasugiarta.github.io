@@ -1016,7 +1016,6 @@ header.sticky {
     justify-content: center;
     align-self: center;
     justify-self: center;
-    transform: translate(31%, 0%);
   }
 
   .text4 h4 {
@@ -1033,6 +1032,18 @@ header.sticky {
     text-align: center;
   }
 
+  .anim2 {
+    margin-left: 200%;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: 1s all ease-in-out;
+  }
+  
+  .js-anim2 {
+    opacity: 1;
+    margin-left: 250%;
+  }
+  
   #path4 {
     width: 67%;
     transform: translate(30%, -160%);
@@ -1086,8 +1097,11 @@ header.sticky {
     z-index: -1;
   }
 
-  .text601 {
+  .text601{
     display: none;
+    position: relative;
+    width: 100%;
+    transform: translate(-13%, -55%);
   }
 
   #tennisclub {
@@ -1097,8 +1111,7 @@ header.sticky {
   }
 
   #inspired {
-    width: 30%;
-    height: 10%;
+    width: 100%;
   }
 
   /*section 7*/
